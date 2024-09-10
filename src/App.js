@@ -26,7 +26,7 @@ function Logo() {
   return <h1>🏝 Far Away 👜</h1>;
 }
 
-function Form(onAddItems) {
+function Form({ onAddItems }) {
   const [description, setDescription] = useState("");
   const [quantity, setQuantity] = useState(5);
 
